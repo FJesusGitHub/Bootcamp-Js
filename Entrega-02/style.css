@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.container {
+    padding: 5px 20px 15px 20px;
+    border: 8px solid rgb(64, 45, 4);
+    border-radius: 6px;
+    background-color: antiquewhite;
+}
+
+.col-50 {
+
+    flex: 50%;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+}
+
+.stars span {
+  color: chocolate;
+  font-size: 20px;
+}
