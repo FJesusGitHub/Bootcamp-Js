@@ -1,5 +1,6 @@
 ENUNCIADO
 
+
 00 Hoteles CSS laboratorio
 Previo. Partimos del HTML generado en el ejercicio anterior.
 ./index.html
