@@ -1,0 +1,57 @@
+body {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0 32px 0;
+display: inline-block;
+background-color: lightblue;
+border: 2px solid slateblue;
+box-sizing: border-box;
+}
+
+.Contenido {
+margin: auto;
+width: 50%;
+}
+
+.ImagenUsuario {
+text-align: center;
+margin: 24px 0 12px 0;
+position: relative;
+}
+
+
+.avatar {
+
+    height: 100px;
+    width: 100px;
+}
+
+.accion {
+text-align: center;
+}
+
+button {
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 6px 12px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    color: #E0F7FA;
+    border-color: #00ACC1;
+    background: linear-gradient(to bottom, #4DD0E1 0%, #26C6DA 100%);
+    box-shadow: inset 0 1px #b2ebf2, 0 1px 2px rgb(0 0 0 / 20%);
+}
+
+button:focus {
+ 
+    color: #00ACC1;
+    border-color:black;
+    background: linear-gradient(to bottom, #4DD0E1 0%, #26C6DA 100%);
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 20%), 0 1px #b2ebf2;
+}
