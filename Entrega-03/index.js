@@ -55,18 +55,20 @@ else if (empleado.bruto >= 34001) {
     retencion = 30
 }
 
-empleado.hijos != 0 ? retencion - 2 : retencion;
-
 console.log("La retención es de un " + retencion + "%");
 
-let retencionDeSueldo = (retencion * empleado.bruto / 100);
+retencionReal = empleado.hijos != 0 ? retencion - 2 : retencion;
 
-console.log("Que en € serían " + retencionDeSueldo + "€")
+console.log("La retención teniendo hijos es de un " + retencionReal + "%");
+
+let retencionDeSueldo = (retencionReal * empleado.bruto / 100);
+
+console.log("Que en € serían " + retencionDeSueldo.toFixed(2) + "€")
 
 let netoAnual = empleado.bruto - retencionDeSueldo
 
-console.log("Sueldo neto anual: " + netoAnual + "€")
+console.log("Sueldo neto anual: " + netoAnual.toFixed(2) + "€")
 
 let netoMensual = netoAnual / empleado.pagas
 
-console.log("Sueldo neto mensual: " + netoMensual + "€")
+console.log("Sueldo neto mensual: " + netoMensual.toFixed(2) + "€")
