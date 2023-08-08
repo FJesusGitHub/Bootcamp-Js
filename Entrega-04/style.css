@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(183, 135, 228);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+header {
+    text-align: center;
+    padding: 67px;
+    margin-bottom: 10px;
+}
+
+.calculator {
+    text-align: center;
+    padding: 32px;
+    border-radius: 6px;
+    border: 6px solid #f4aaf1;
+    display:flex
+
+}
+
+#inputA {
+    font-size: 30px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    border-radius: 6px;
+    border: 3px rgb(92, 13, 124);
+    background-color: rgb(239, 214, 249);
+}
+
+#inputB {
+    font-size: 30px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    border-radius: 6px;
+    border: 3px rgb(92, 13, 124);
+    background-color: rgb(239, 214, 249);
+}
+
+
+#inputResult {
+    font-size: 30px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    border-radius: 6px;
+    border: 3px rgb(92, 13, 124);
+    background-color: rgb(239, 214, 249);
+}
+
+#sumButton {
+    font-size: 30px;
+    width: 30px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    border-radius: 6px;
+    border: 3px rgb(92, 13, 124);
+    background-color: rgb(206, 163, 222);
+}
+
+#resButton {
+    font-size: 30px;
+    width: 30px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    border-radius: 6px;
+    border: 3px rgb(92, 13, 124);
+    background-color: rgb(206, 163, 222);
+}
+
+#mulButton {
+    font-size: 30px;
+    width: 30px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    border-radius: 6px;
+    border: 3px rgb(92, 13, 124);
+    background-color: rgb(206, 163, 222);
+}
+
+#divButton {
+    font-size: 30px;
+    width: 30px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    border-radius: 6px;
+    border: 3px rgb(92, 13, 124);
+    background-color: rgb(206, 163, 222);
+
+}
+
+.buttons {
+    margin-top: 17px;
+}
