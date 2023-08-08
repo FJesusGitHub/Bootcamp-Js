@@ -25,7 +25,7 @@ function dividir() {
 };
 
 
-document.getElementById("sumButton").addEventListener("click", () => sumar());
-document.getElementById("resButton").addEventListener("click", () => restar());
-document.getElementById("mulButton").addEventListener("click", () => multiplicar());
-document.getElementById("divButton").addEventListener("click", () => dividir());
+document.getElementById("sumButton").addEventListener("click",sumar);
+document.getElementById("resButton").addEventListener("click",restar);
+document.getElementById("mulButton").addEventListener("click",multiplicar);
+document.getElementById("divButton").addEventListener("click",dividir);
