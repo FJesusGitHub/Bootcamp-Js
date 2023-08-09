@@ -18,4 +18,4 @@ Opcional:
   Si todos los productos son prime mostrar un mensaje "Pedido sin gastos de envío", si no "Este pedido
   tiene gastos de envío".
   Mostrar el carrito en un listado de html básico.
-  Aplicar un descuento del 5% si la compra es mayor de 100 €.
+  Aplicar un descuento del 5% si la compra es mayor de 50 €.
