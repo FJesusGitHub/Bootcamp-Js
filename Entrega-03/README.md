@@ -1,5 +1,6 @@
 ENUNCIADO
 
+
 Operadores y Flujos de Control - Laboratorio
 Introducción
 Con este ejercicio veremos como nuestro código se va ejecutando de manera secuencial, y luego veremos de manera resumida (se verá mejor en el siguiente módulo), como podemos encapsularlo mejor.
