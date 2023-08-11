@@ -1,0 +1,25 @@
+#header {
+    text-align: center;
+}
+
+.translatorZone {
+    text-align: center;
+}
+
+.translateButton {
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 6px;
+    border: 3px rgb(92, 13, 124);
+    background-color: rgb(206, 163, 222);
+}
+
+.buttons {
+    text-align: center;
+}
+
+.textArea {
+    padding: 150px;
+    font-size: 20px;
+    text-align: center;
+}
