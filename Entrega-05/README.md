@@ -1,5 +1,6 @@
 ENUNCIADO
 
+
 Vamos a trabajar con un carrito de compra.
 Un producto dentro de una línea del carrito de compra contiene la siguiente información:
   Nombre del producto
