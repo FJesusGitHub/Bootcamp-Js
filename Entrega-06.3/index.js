@@ -35,13 +35,13 @@ function fillHours(myTeam) {
     for (let worker of myTeam) {
         console.log("Disponibilidad de " + worker.name);
         for (let i = 0; i < worker.availability.length; i++) {
-            worker.availability[i] = (Math.random() >= 0.5);
+            worker.availability[i] = Math.random() >= 0.5;
 
             if (worker.availability[i] === true) {
                 console.log(WORK_HOURS[i], "si");
             } else {
                 console.log(WORK_HOURS[i], "no");
-            }
+            };
         };
     };
 };
@@ -61,13 +61,13 @@ function searchAvailability(myTeam) {
     let availabilityArraySorted = availabilityArray.sort();
     console.log(availabilityArraySorted);
 
-    for (let i = 0; i <availabilityArraySorted.length; i++) {
+    for (let i = 0; i < availabilityArraySorted.length; i++) {
         let result = availabilityArraySorted.filter((element) => element == i);
         if (result.length == myTeam.length) {
             return console.log("Hueco libre disponible: " + WORK_HOURS[i]);
         };
     };
     return console.log("No hay hueco libre");
-    
+
 };
 searchAvailability(myTeam);
